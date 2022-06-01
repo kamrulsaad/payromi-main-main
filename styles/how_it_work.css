@@ -1,0 +1,880 @@
+/* -------Banner Section------ */
+.buy {
+  background-image: url("../Images/top-bg2png.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fefbf3;
+  margin-bottom: 20px;
+}
+
+.buy .row {
+  padding-top: 30px;
+}
+
+.BuyWelcome {
+  font-family: "Risque", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.pay {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 60px;
+  color: #f44848;
+}
+
+.pay-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+  color: #f44848;
+}
+
+.serv-img-1 {
+  background-image: url("../Images/srv1.png");
+  background-repeat: no-repeat;
+  height: 186px;
+  padding-top: 25px;
+  padding-left: 40px;
+}
+
+.serv-img-2 {
+  background-image: url("../Images/srv2.png");
+  background-repeat: no-repeat;
+  height: 186px;
+  padding-top: 25px;
+  padding-left: 40px;
+}
+
+.serv-img-3 {
+  background-image: url("../Images/srv3.png");
+  background-repeat: no-repeat;
+  height: 186px;
+  padding-top: 25px;
+  padding-left: 40px;
+}
+
+.serv-img-4 {
+  background-image: url("../Images/srv4.png");
+  background-repeat: no-repeat;
+  height: 186px;
+  padding-top: 25px;
+  padding-left: 40px;
+}
+
+.buypra {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: justify;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+.buy-btn {
+  font-family: "Almarai", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  color: #516beb !important;
+  background-color: #edd2f3 !important;
+  border-radius: 25px;
+  border: 5px solid #516beb;
+  padding: 5px 50px;
+}
+
+.buymedia {
+  border-radius: 15px 35px 15px 15px;
+  height: 120px;
+}
+
+.buymedia img {
+  width: 59px;
+  height: 56px;
+}
+
+.delivery-service-title {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #192a51;
+}
+
+.delivery-service-text {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #192a51;
+}
+
+/* -----  Signup steps numbering n img setting ----- */
+
+.sinup {
+  padding-top: 90px;
+}
+
+.sinupsedign img {
+  height: 257px;
+  padding: 20px;
+}
+
+.bbox-title {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38.7562px;
+  line-height: 49px;
+  color: #000000;
+}
+
+.bbox-text {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20.9929px;
+  line-height: 26px;
+  text-align: justify;
+  color: #000000;
+}
+
+.number {
+  background-image: url("../Images/CircledThin.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 95px;
+  height: 95px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  padding-top: 8px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 75px;
+  color: #000000;
+}
+.text-dark_1 img {
+  margin-top: -14px;
+}
+
+/* --  countdown section -- */
+
+/* --   pay method -- */
+
+.payimg {
+  width: 255px;
+  height: 80px;
+}
+
+.paytitle {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+
+.titlebynow {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 31.2306px;
+  line-height: 39px;
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+
+.onpurchase {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: justify;
+  letter-spacing: 0.05em;
+  color: #000000;
+  width: 50%;
+}
+
+/* buy card */
+.buy-headline {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+}
+
+#buy-car-design {
+  width: auto;
+  height: 492px;
+  border-radius: 26px;
+  background: #ffffff;
+  border: 2px solid #516beb;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.buy-card-title {
+  font-family: "Almarai", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 31px;
+  line-height: 35px;
+  color: #000000;
+  padding-top: 45px;
+}
+
+.barcard {
+  font-family: "Aleo", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.2178px;
+  line-height: 22px;
+  text-align: justify;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+#planamount {
+  font-family: Almarai;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16.2381px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.buysection4 {
+  background-image: url("../Images/paymnt-bg2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*END OF RANGE slider  */
+.priceinput {
+  border-radius: 15.5px !important;
+  width: 167.6px;
+  height: 31.56px;
+  background: #ffffff;
+  border: 0.175313px solid #000000;
+  font-family: Almarai;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14.025px;
+  line-height: 16px;
+  color: #000000;
+  padding-left: 15px;
+}
+
+.pricelist {
+  text-decoration: none;
+  border-radius: 15px;
+  height: 35px;
+  text-align: center;
+  filter: drop-shadow(0px 2.805px 2.805px rgba(0, 0, 0, 0.12));
+}
+
+.price {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000b49;
+  background: #edc7d9;
+  border-radius: 10px;
+  padding: 3px 14px;
+
+  margin-left: 5px;
+}
+
+.price-day {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.price-date {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #000000;
+}
+
+.progress {
+  width: 20px;
+  height: 20px !important;
+  float: left;
+  line-height: 20px;
+  background: none;
+  box-shadow: none;
+  position: relative;
+  margin-right: 5px;
+}
+
+.progress:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+
+  background: #ff852d;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.progress > span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.progress .progress-bar {
+  width: 100%;
+  height: 100%;
+  background: none;
+  position: absolute;
+  background: #fcda40;
+
+  top: 0;
+}
+
+.progress .progress-left .progress-bar {
+  left: 100%;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-left: 0;
+  -webkit-transform-origin: center left;
+  transform-origin: center left;
+}
+
+.progress .progress-right {
+  right: 0;
+}
+
+/* ============= Slider range  Input Value ======== */
+
+.ui-slider .ui-slider-handle {
+  width: 1em !important;
+  height: 1em !important;
+  cursor: default;
+  border-radius: 50px !important;
+  -moz-border-radius: 50px !important;
+  -webkit-border-radius: 50px !important;
+}
+
+.ui-slider-handle .ui-state-default,
+.ui-widget-content .ui-state-default {
+  background: #0df0fb !important;
+  color: #0df0fb !important;
+  pointer-events: none !important;
+}
+
+.ui-slider-handle .ui-state-active,
+.ui-widget-content .ui-state-active {
+  background: #0df0fb !important;
+  background-image: none !important;
+  border: 0 solid #edc7d9 !important;
+  font-weight: normal;
+  color: #fff;
+  border: 0px solid #0df0fb !important;
+}
+
+.ui-slider-range.ui-corner-all.ui-widget-header.ui-slider-range-min {
+  background: #fcda40 !important;
+}
+
+.ui-widget-content {
+  background-image: none !important;
+  background: #fcda40 !important;
+  height: 7px !important;
+  border: 1px solid #edc7d9 !important;
+  border-radius: 8px !important;
+  -moz-border-radius: 3px !important;
+  -webkit-border-radius: 3px !important;
+}
+
+/* ======END========= */
+/* day1 */
+.progress.day1 .progress-right .progress-bar {
+  left: -100%;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+  animation: loading-1 1.8s linear forwards;
+}
+
+/* day2 */
+.progress.day2 .progress-right .progress-bar {
+  left: -100%;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+  animation: loading-2 1.8s linear forwards;
+}
+
+/* day3 */
+.progress.day3 .progress-right .progress-bar {
+  left: -100%;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+  animation: loading-3 1.8s linear forwards;
+}
+
+/* day4 */
+.progress.day4 .progress-right .progress-bar {
+  left: -100%;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+  animation: loading-4 1.8s linear forwards;
+}
+
+.progress.day4 .progress-left .progress-bar {
+  animation: loading-5 1.5s linear forwards 1.8s;
+}
+
+/* day5 */
+.progress.day5 .progress-right .progress-bar {
+  left: -100%;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+  animation: loading-4 1.8s linear forwards;
+}
+
+.progress.day5 .progress-left .progress-bar {
+  animation: loading-6 1.5s linear forwards 1.8s;
+}
+
+/* day6 */
+.progress.day6 .progress-right .progress-bar {
+  left: -100%;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+  animation: loading-4 1.8s linear forwards;
+}
+
+.progress.day6 .progress-left .progress-bar {
+  animation: loading-7 1.5s linear forwards 1.8s;
+}
+
+/* day7 */
+.progress.day7 .progress-right .progress-bar {
+  left: -100%;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+  animation: loading-4 1.8s linear forwards;
+}
+
+.progress.day7 .progress-left .progress-bar {
+  animation: loading-8 1.5s linear forwards 1.8s;
+}
+
+@keyframes loading-1 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(52deg);
+    transform: rotate(52deg);
+  }
+}
+
+@keyframes loading-2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(104deg);
+    transform: rotate(104deg);
+  }
+}
+
+@keyframes loading-3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(156deg);
+    transform: rotate(156deg);
+  }
+}
+
+@keyframes loading-4 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes loading-5 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(28deg);
+    transform: rotate(28deg);
+  }
+}
+
+@keyframes loading-6 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(80deg);
+    transform: rotate(80deg);
+  }
+}
+
+@keyframes loading-7 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(132deg);
+    transform: rotate(132deg);
+  }
+}
+
+@keyframes loading-8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+}
+
+/* Progres weekbar end */
+/* Better shop with payromi */
+
+.delivery-img {
+  padding-bottom: 58px;
+  height: 633px;
+}
+
+.border-line {
+  border: 1px solid #000000;
+}
+
+.bs-btn {
+  border: 5px solid #1352f4;
+  border-color: #1352f4;
+  margin: 0;
+  padding: 0;
+  border-radius: 25px;
+  color: #fff;
+}
+
+.bs-btn:hover {
+  color: #fff;
+}
+
+.bg-btn {
+  background-color: #1352f4;
+  border-radius: 14px;
+  padding: 5px 10px;
+  margin-left: -1px;
+}
+
+/* =========================================================  Media Query =============================================================== */
+
+/* =========================================================  Media Query max-width: 1199px =============================================================== */
+@media only screen and (max-width: 1199px) {
+  /* -------Banner Section------ */
+
+  .titlebynow {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26.9741px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+
+  /*Service card*/
+  .buymedia img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .delivery-service-title {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .delivery-service-text {
+    font-size: 11px;
+    line-height: 15px;
+  }
+
+  /*---------------------------------------------------------------------------------------  */
+  /* Another page Buy */
+  .buyservcard {
+    margin-top: 10px;
+  }
+
+  /* --   pay method -- */
+
+  /* buy card */
+  .buy-headline {
+    font-size: 21px;
+    line-height: 30px;
+    color: #000000;
+  }
+
+  .sinup {
+    padding-top: 50;
+  }
+}
+
+/* =========================================================  Media Query max-width: 991px =============================================================== */
+@media only screen and (max-width: 991px) {
+  /*Service card*/
+  .buymedia img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .delivery-service-title {
+    font-size: 21px;
+    line-height: 31px;
+  }
+
+  .delivery-service-text {
+    font-size: 10.5px;
+    line-height: 13px;
+  }
+  .number {
+    width: 75px;
+    height: 75px;
+    padding-top: 5px;
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  /*---------------------------------------------------------------------------------------  */
+  /* Another page Buy */
+  /* --   pay method -- */
+
+  .payimg {
+    width: 150px;
+    height: 40px;
+  }
+
+  .paytitle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: 0em;
+  }
+
+  .titlebynow {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0em;
+  }
+
+  .onpurchase {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+    letter-spacing: 0em;
+  }
+
+  /* buy card */
+  .buy-headline {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  #buy-car-design {
+    width: auto;
+    height: 492px;
+  }
+
+  .buy-card-title {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .barcard {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: justify;
+    letter-spacing: 0.05em;
+  }
+
+  .bs-title {
+    font-weight: 800;
+    font-size: 28px;
+  }
+
+  /*line-height: 40px;
+         line-height: 20px;*/
+
+  .bs-text {
+    font-size: 16px;
+  }
+}
+
+/* =========================================================  Media Query max-width: 767px =============================================================== */
+@media only screen and (max-width: 767px) {
+  /* -------Banner Section------ */
+
+  /*---------------------------------------------------------------------------------------  */
+  /* Another page Buy */
+
+  /* buy card */
+  .buy-headline {
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  #buy-car-design {
+    width: auto;
+  }
+
+  .buy-card-title {
+    font-weight: 600;
+  }
+
+  .onpurchase {
+    width: 100%;
+  }
+}
+
+/* =========================================================  Media Query max-width: 575px =============================================================== */
+
+@media only screen and (max-width: 575px) {
+  .navbar-brand {
+    height: 25%;
+    width: 25%;
+  }
+
+  /*---------------------------------------------------------------------------------------  */
+  /* Another page Buy */
+  .buymedia {
+    margin: 5px;
+  }
+
+  /* buy card */
+  .buy-headline {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  #buy-car-design {
+    width: 80%;
+    left: 10%;
+    height: 492px;
+  }
+
+  .buy-card-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .barcard {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0em;
+  }
+
+  .number {
+    width: 70px;
+    height: 70px;
+    padding-top: 5px;
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .bbox-title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .bbox-text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
