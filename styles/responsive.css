@@ -144,6 +144,79 @@
     margin: 10px auto;
     width: auto;
   }
+     /*extra*/
+     .login-modal {
+      width: 280px;
+      height: 500px;
+      font-size: 10px;
+      }
+    
+      .sing-bod,
+      .sing-bod-1 {
+      width: 280px;
+      margin-left: 0px;
+      }
+      .sing-bod-1 {
+      margin-left: -10px;
+      }
+      .plc {
+      width: 200px;
+      }
+      .button {
+      width: 180px;
+      }
+      .emailHelp {
+      margin-left: -200px;
+      }
+      .w3-bar-item {
+      margin-left: -80px;
+      }
+      .check-input-1{
+         margin-left: 10px;
+      }
+      .check-input-2{
+      margin-left: 14px;
+     }
+      .form-check-label{
+      font-weight: 300; font-size: 8px; 
+      }
+      .button-3 {
+      margin-left: -10px;
+      width: 200px;
+      margin-top: -2px;
+      }
+      .pass-text{
+        font-size: 10px;
+      }
+      .login-modal-1 {
+      width: 280px;
+      height: 400px;
+      border-radius: 8px;
+      background-color: white;
+      }
+      .plc-1 {
+      width: 260px;
+      margin-left: 0px;
+      }
+      .button-1 {
+      margin-left: 0px;
+      width: 200px;
+      }
+      .login-modal-page {
+        height:0;
+        width: auto;
+        background-color: #f7f7fc;
+        height:auto;
+      }
+      .login h1 {
+        width: 0px;
+        padding: 20px;
+        font-weight: 700;
+        font-size: 31px;
+        color: #11142d;
+        text-align: center;
+        margin-left: 40px;
+      }
 
 }
 
@@ -435,6 +508,7 @@
   .cret-button p {
     margin-left: -20px;
   }
+
 }
 
 /*// Medium devices (tablets, 768px and up)*/
