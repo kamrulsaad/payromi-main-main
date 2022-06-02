@@ -172,10 +172,14 @@
       margin-left: -80px;
       }
       .check-input-1{
-         margin-left: 10px;
+         margin-left: px;
+      }
+      .negative-margin{
+        margin-left: 0;
+        margin-bottom: 10px;
       }
       .check-input-2{
-      margin-left: 14px;
+      margin-left: px;
      }
       .form-check-label{
       font-weight: 300; font-size: 8px; 
@@ -272,6 +276,10 @@
   .apps-section {
     color: white;
     font-size: 20px;
+  }
+  .negative-margin{
+    margin-left: 0;
+    margin-bottom: 10px;
   }
   .buy-cards-container div:nth-child(2n) {
     margin-left: 0;
