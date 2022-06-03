@@ -151,7 +151,9 @@
                     <hr class="m-0 mt-1" />
                     <a
                       class="text-decoration-none text-black"
-                      href="./modalComponents/payment-modal.html"
+                      href=""
+                      data-bs-toggle="modal"
+                      data-bs-target="#payment"
                     >
                       <div class="d-flex align-items-center p-2">
                         <img
@@ -164,7 +166,9 @@
                     <hr class="m-0 mt-1" />
                     <a
                       class="text-decoration-none text-black"
-                      href="./modalComponents/delivery.html"
+                      href=""
+                      data-bs-toggle="modal"
+                      data-bs-target="#delivery"
                     >
                       <div class="d-flex align-items-center p-2">
                         <img
@@ -177,7 +181,9 @@
                     <hr class="m-0 mt-1" />
                     <a
                       class="text-decoration-none text-black"
-                      href="./modalComponents/return.html"
+                      href=""
+                      data-bs-toggle="modal"
+                      data-bs-target="#return"
                     >
                       <div class="d-flex align-items-center p-2">
                         <img
@@ -190,7 +196,9 @@
                     <hr class="m-0 mt-1" />
                     <a
                       class="text-decoration-none text-black"
-                      href="./modalComponents/cancel.html"
+                      href=""
+                      data-bs-toggle="modal"
+                      data-bs-target="#cancel"
                     >
                       <div class="d-flex align-items-center p-2">
                         <img
@@ -233,61 +241,60 @@
       aria-hidden="true"
     >
       <div class="modal-dialog">
-        
-          <div class="status-modal position-relative">
-            <div
-              style="flex-grow: 1"
-              class="d-flex justify-content-center align-items-center"
-            >
-              <img
-                class="img-fluid"
-                src="./assets/PayRomi/assets/No Messages.png"
-                alt=""
-              />
-            </div>
-            <div class="sidebar-div position-relative">
-              <h3
-                style="
-                  font-family: 'Sora';
-                  font-weight: 800;
-                  font-size: 20px;
-                  text-align: center;
-                  margin-top: 40px;
-                "
-              >
-                Notifications
-              </h3>
-              <h5
-                style="
-                  font-family: 'Sora';
-                  font-weight: 600;
-                  font-size: 12px;
-                  padding: 20px 10px 0;
-                "
-              >
-                No Notifications Yet
-              </h5>
-              <p
-                style="
-                  font-family: 'Sora';
-                  font-weight: 300;
-                  font-size: 10px;
-                  padding-left: 10px;
-                "
-              >
-                Your notification will appear here once you’ve recived them.
-              </p>
-              <img
-              data-bs-dismiss="modal"
-                class="position-absolute end-0 bottom-0 mt-auto ms-auto"
-                src="./assets/PayRomi/assets/Multiply.png"
-                alt=""
-              />
-            </div>
+        <div class="status-modal position-relative">
+          <div
+            style="flex-grow: 1"
+            class="d-flex justify-content-center align-items-center"
+          >
+            <img
+              class="img-fluid"
+              src="./assets/PayRomi/assets/No Messages.png"
+              alt=""
+            />
           </div>
+          <div class="sidebar-div position-relative">
+            <h3
+              style="
+                font-family: 'Sora';
+                font-weight: 800;
+                font-size: 20px;
+                text-align: center;
+                margin-top: 40px;
+              "
+            >
+              Notifications
+            </h3>
+            <h5
+              style="
+                font-family: 'Sora';
+                font-weight: 600;
+                font-size: 12px;
+                padding: 20px 10px 0;
+              "
+            >
+              No Notifications Yet
+            </h5>
+            <p
+              style="
+                font-family: 'Sora';
+                font-weight: 300;
+                font-size: 10px;
+                padding-left: 10px;
+              "
+            >
+              Your notification will appear here once you’ve recived them.
+            </p>
+            <img
+              data-bs-dismiss="modal"
+              class="position-absolute end-0 bottom-0 mt-auto ms-auto"
+              src="./assets/PayRomi/assets/Multiply.png"
+              alt=""
+            />
+          </div>
+        </div>
       </div>
     </div>
- 
+
     <div
       class="modal fade"
       id="purchase"
@@ -296,58 +303,308 @@
       aria-hidden="true"
     >
       <div class="modal-dialog">
-        
-          <div class="status-modal position-relative">
-            <div
-              style="flex-grow: 1"
-              class="d-flex justify-content-center align-items-center"
-            >
-              <img
-                class="img-fluid"
-                src="./assets/PayRomi/assets/Black Friday.png"
-                alt=""
-              />
-            </div>
-            <div class="sidebar-div position-relative">
-              <h3
-                style="
-                  font-family: 'Sora';
-                  font-weight: 800;
-                  font-size: 20px;
-                  text-align: center;
-                  margin-top: 40px;
-                "
-              >
-              Purchase
-              </h3>
-              <h5
-                style="
-                  font-family: 'Sora';
-                  font-weight: 600;
-                  font-size: 12px;
-                  padding: 20px 10px 0;
-                "
-              >
-              No Purchase Yet
-              </h5>
-              <p
-                style="
-                  font-family: 'Sora';
-                  font-weight: 300;
-                  font-size: 10px;
-                  padding-left: 10px;
-                "
-              >
-              Your purchase will appear here once you buy any associate store with payromi
-              </p>
-              <img
-              data-bs-dismiss="modal"
-                class="position-absolute end-0 bottom-0 mt-auto ms-auto"
-                src="./assets/PayRomi/assets/Multiply.png"
-                alt=""
-              />
-            </div>
+        <div class="status-modal position-relative">
+          <div
+            style="flex-grow: 1"
+            class="d-flex justify-content-center align-items-center"
+          >
+            <img
+              class="img-fluid"
+              src="./assets/PayRomi/assets/Black Friday.png"
+              alt=""
+            />
           </div>
+          <div class="sidebar-div position-relative">
+            <h3
+              style="
+                font-family: 'Sora';
+                font-weight: 800;
+                font-size: 20px;
+                text-align: center;
+                margin-top: 40px;
+              "
+            >
+              Purchase
+            </h3>
+            <h5
+              style="
+                font-family: 'Sora';
+                font-weight: 600;
+                font-size: 12px;
+                padding: 20px 10px 0;
+              "
+            >
+              No Purchase Yet
+            </h5>
+            <p
+              style="
+                font-family: 'Sora';
+                font-weight: 300;
+                font-size: 10px;
+                padding-left: 10px;
+              "
+            >
+              Your purchase will appear here once you buy any associate store
+              with payromi
+            </p>
+            <img
+              data-bs-dismiss="modal"
+              class="position-absolute end-0 bottom-0 mt-auto ms-auto"
+              src="./assets/PayRomi/assets/Multiply.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="payment"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="status-modal position-relative">
+          <div
+            style="flex-grow: 1"
+            class="d-flex justify-content-center align-items-center"
+          >
+            <img
+              class="img-fluid"
+              src="./assets/PayRomi/assets/Payment processed.png"
+              alt=""
+            />
+          </div>
+          <div class="sidebar-div position-relative">
+            <h3
+              style="
+                font-family: 'Sora';
+                font-weight: 800;
+                font-size: 20px;
+                text-align: center;
+                margin-top: 40px;
+              "
+            >
+              Payment
+            </h3>
+            <h5
+              style="
+                font-family: 'Sora';
+                font-weight: 600;
+                font-size: 12px;
+                padding: 20px 10px 0;
+              "
+            >
+              No Payment Yet
+            </h5>
+            <p
+              style="
+                font-family: 'Sora';
+                font-weight: 300;
+                font-size: 10px;
+                padding-left: 10px;
+              "
+            >
+              Your payments will appear here once you buy any associate store
+              with payromi.
+            </p>
+            <img
+              data-bs-dismiss="modal"
+              class="position-absolute end-0 bottom-0 mt-auto ms-auto"
+              src="./assets/PayRomi/assets/Multiply.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="delivery"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="status-modal position-relative">
+          <div
+            style="flex-grow: 1"
+            class="d-flex justify-content-center align-items-center"
+          >
+            <img
+              class="img-fluid"
+              src="./assets/PayRomi/assets/Delivery.png"
+              alt=""
+            />
+          </div>
+          <div class="sidebar-div position-relative">
+            <h3
+              style="
+                font-family: 'Sora';
+                font-weight: 800;
+                font-size: 20px;
+                text-align: center;
+                margin-top: 40px;
+              "
+            >
+              Delivery
+            </h3>
+            <h5
+              style="
+                font-family: 'Sora';
+                font-weight: 600;
+                font-size: 12px;
+                padding: 20px 10px 0;
+              "
+            >
+              No delivery Yet
+            </h5>
+            <p
+              style="
+                font-family: 'Sora';
+                font-weight: 300;
+                font-size: 10px;
+                padding-left: 10px;
+              "
+            >
+              Your delivery will appear here once you buy any associate store
+              with payromi.
+            </p>
+            <img
+              data-bs-dismiss="modal"
+              class="position-absolute end-0 bottom-0 mt-auto ms-auto"
+              src="./assets/PayRomi/assets/Multiply.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="return"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="status-modal position-relative">
+          <div
+            style="flex-grow: 1"
+            class="d-flex justify-content-center align-items-center"
+          >
+            <img
+              class="img-fluid"
+              src="./assets/PayRomi/assets/return.png"
+              alt=""
+            />
+          </div>
+          <div class="sidebar-div position-relative">
+            <h3
+              style="
+                font-family: 'Sora';
+                font-weight: 800;
+                font-size: 20px;
+                text-align: center;
+                margin-top: 40px;
+              "
+            >
+              Return
+            </h3>
+            <h5
+              style="
+                font-family: 'Sora';
+                font-weight: 600;
+                font-size: 12px;
+                padding: 20px 10px 0;
+              "
+            >
+              No return Yet
+            </h5>
+            <p
+              style="
+                font-family: 'Sora';
+                font-weight: 300;
+                font-size: 10px;
+                padding-left: 10px;
+              "
+            >
+              Your return product will show here.
+            </p>
+            <img
+              data-bs-dismiss="modal"
+              class="position-absolute end-0 bottom-0 mt-auto ms-auto"
+              src="./assets/PayRomi/assets/Multiply.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="cancel"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="status-modal position-relative">
+          <div
+            style="flex-grow: 1"
+            class="d-flex justify-content-center align-items-center"
+          >
+            <img
+              class="img-fluid"
+              src="./assets/PayRomi/assets/no.png"
+              alt=""
+            />
+          </div>
+          <div class="sidebar-div position-relative">
+            <h3
+              style="
+                font-family: 'Sora';
+                font-weight: 800;
+                font-size: 20px;
+                text-align: center;
+                margin-top: 40px;
+              "
+            >
+              Cancel
+            </h3>
+            <h5
+              style="
+                font-family: 'Sora';
+                font-weight: 600;
+                font-size: 12px;
+                padding: 20px 10px 0;
+              "
+            >
+              No cancel Yet
+            </h5>
+            <p
+              style="
+                font-family: 'Sora';
+                font-weight: 300;
+                font-size: 10px;
+                padding-left: 10px;
+              "
+            >
+              Your cancelled order will show here.
+            </p>
+            <img
+              data-bs-dismiss="modal"
+              class="position-absolute end-0 bottom-0 mt-auto ms-auto"
+              src="./assets/PayRomi/assets/Multiply.png"
+              alt=""
+            />
+          </div>
+        </div>
       </div>
     </div>
 
