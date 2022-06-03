@@ -115,6 +115,8 @@
                   <div class="px-3">
                     <button
                       class="btn btn-primary rounded-pill w-100 my-2 fw-bold"
+                      data-bs-toggle="modal"
+                      data-bs-target="#apply"
                     >
                       Apply Payromi
                     </button>
@@ -608,6 +610,659 @@
       </div>
     </div>
 
+    <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+
+    <div
+      class="modal fade"
+      id="apply"
+      aria-hidden="true"
+      aria-labelledby="exampleModalToggleLabel"
+      tabindex="-1"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div
+            class="d-flex align-items-center justify-content-center modal-bg-1"
+          >
+            <div
+              class="modal-custom-1 d-flex align-items-center justify-content-center px-4"
+            >
+              <div class="modal-components">
+                <h4 class="fw-bolder">How much is your purchase ?</h4>
+                <p>You will be charged for what you end up spending</p>
+                <input
+                  class="w-100 px-2 py-1"
+                  type="text"
+                  placeholder="Amount 100"
+                />
+                <button
+                  class="btn btn-primary mt-5 rounded w-100 fw-bolder"
+                  data-bs-target="#frame-1"
+                  data-bs-toggle="modal"
+                >
+                  Continue
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="frame-1"
+      aria-hidden="true"
+      aria-labelledby="exampleModalToggleLabel2"
+      tabindex="-1"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div
+            class="d-flex align-items-center justify-content-center modal-bg-1"
+          >
+            <div
+              class="modal-custom-1 d-flex align-items-baseline justify-content-center px-3"
+            >
+              <div class="modal-components mt-auto mb-5 pb-5">
+                <h4 class="fw-bolder">
+                  Should we add extra to cover shopping and tax ?
+                </h4>
+                <div
+                  class="d-flex p-1 align-items-center justify-content-between"
+                >
+                  <input type="radio" />
+                  <input
+                    class="px-2 py-1"
+                    type="text"
+                    placeholder="Add 10% = $110"
+                  />
+                </div>
+                <div
+                  class="d-flex mt-4 p-1 align-items-center justify-content-between"
+                >
+                  <input type="radio" />
+                  <input
+                    class="px-2 py-1"
+                    type="text"
+                    placeholder="Continue without adding tax"
+                  />
+                </div>
+                <button
+                  class="btn btn-primary mt-5 rounded w-100 fw-bolder"
+                  data-bs-target="#method"
+                  data-bs-toggle="modal"
+                >
+                  Continue
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="method"
+      aria-hidden="true"
+      aria-labelledby="exampleModalToggleLabel2"
+      tabindex="-1"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div
+            class="d-flex align-items-center justify-content-center modal-bg-1"
+          >
+            <div
+              class="modal-custom-1 d-flex align-items-baseline justify-content-center px-3"
+            >
+              <div class="modal-components mt-auto mb-5 pb-5">
+                <h4 class="fw-bolder mb-3 fs-6">
+                  Which installment method you like ?
+                </h4>
+                <div data-bs-target="#weekly"
+                data-bs-toggle="modal" class="d-flex mb-2 p-1 align-items-center">
+                  <input type="radio" />
+                  <div>
+                    <h4 class="fw-bold mb-1 fs-6">Weekly</h4>
+                    <p class="mb-0 fs-6">
+                      Today you pay only $5 and 6 week installment
+                    </p>
+                  </div>
+                </div>
+                <div data-bs-target="#bi-weekly"
+                data-bs-toggle="modal" class="d-flex mb-2 p-1 align-items-center">
+                  <input type="radio" />
+                  <div>
+                    <h4 class="fw-bold mb-1 fs-6">Bi-Weekly</h4>
+                    <p class="mb-0 fs-6">
+                      Today you pay only 25% and 4 week installment
+                    </p>
+                  </div>
+                </div>
+                <div data-bs-target="#monthly"
+                data-bs-toggle="modal" class="d-flex mb-2 p-1 align-items-center">
+                  <input type="radio" />
+                  <div>
+                    <h4 class="fw-bold mb-1 fs-6">Monthly</h4>
+                    <p class="mb-0 fs-6">
+                      6% to 16% APR and 6 to 36 months installment
+                    </p>
+                  </div>
+                </div>
+                <button
+                  data-bs-target="#frame-2"
+                  data-bs-toggle="modal"
+                  class="btn btn-primary mt-3 rounded w-100 fw-bolder"
+                >
+                  Continue
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="weekly"
+      aria-hidden="true"
+      aria-labelledby="exampleModalToggleLabel2"
+      tabindex="-1"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div
+            class="d-flex align-items-center justify-content-center modal-bg-1"
+          >
+            <div
+              class="modal-custom-1 d-flex align-items-baseline justify-content-center px-3"
+            >
+              <div class="modal-components mt-auto mb-5 pb-5">
+                <h4 class="fw-bolder mb-3 fs-5 text-center">Weekly plan</h4>
+                <h4 class="fw-bolder mb-2 fs-6 text-center">
+                  Your purchase amount <span class="fs-5">$100</span>
+                </h4>
+                <div class="d-flex gap-2 mb-2">
+                  <div>
+                    <img
+                      class="img-fluid"
+                      src="./assets/Group 430icon.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="plan-card">
+                    <div>
+                      <p class="fw-bolder">$5</p>
+                    </div>
+                    <p class="fw-bold">Today</p>
+                    <p>1st Jan</p>
+                    <img
+                      class="rounded-circle"
+                      src="./assets/Ellipse 16.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="d-flex gap-2 mb-2">
+                  <div>
+                    <img
+                      class="img-fluid"
+                      src="./assets/Group 430icon.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="plan-card">
+                    <div>
+                      <p class="fw-bolder">$19</p>
+                    </div>
+                    <p class="fw-bold">1st Week</p>
+                    <p>7th Jan</p>
+                    <img
+                      class="rounded-circle"
+                      src="./assets/progress-$ (1).png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="d-flex gap-2 mb-2">
+                  <div>
+                    <img
+                      class="img-fluid"
+                      src="./assets/Group 430icon.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="plan-card">
+                    <div>
+                      <p class="fw-bolder">$19</p>
+                    </div>
+                    <p class="fw-bold">2nd Week</p>
+                    <p>14th Jan</p>
+                    <img
+                      class="rounded-circle"
+                      src="./assets/progress-$ (6).png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="d-flex gap-2 mb-2">
+                  <div>
+                    <img
+                      class="img-fluid"
+                      src="./assets/Group 430icon.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="plan-card">
+                    <div>
+                      <p class="fw-bolder">$19</p>
+                    </div>
+                    <p class="fw-bold">3rd Week</p>
+                    <p>21st Jan</p>
+                    <img
+                      class="rounded-circle"
+                      src="./assets/progress-$ (5).png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="d-flex gap-2 mb-2">
+                  <div>
+                    <img
+                      class="img-fluid"
+                      src="./assets/Group 430icon.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="plan-card">
+                    <div>
+                      <p class="fw-bolder">$19</p>
+                    </div>
+                    <p class="fw-bold">4th Week</p>
+                    <p>4th Feb</p>
+                    <img
+                      class="rounded-circle"
+                      src="./assets/progress-$ (4).png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="d-flex gap-2 mb-2">
+                  <div>
+                    <img
+                      class="img-fluid"
+                      src="./assets/Group 430icon.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="plan-card">
+                    <div>
+                      <p class="fw-bolder">$19</p>
+                    </div>
+                    <p class="fw-bold">5th Week</p>
+                    <p>11th Feb</p>
+                    <img
+                      class="rounded-circle"
+                      src="./assets/progress-$ (3).png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="d-flex gap-2 mb-2">
+                  <div>
+                    <img
+                      class="img-fluid"
+                      src="./assets/Group 430icon.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="plan-card">
+                    <div>
+                      <p class="fw-bolder">$19</p>
+                    </div>
+                    <p class="fw-bold">6th Week</p>
+                    <p>18th Feb</p>
+                    <img
+                      class="rounded-circle"
+                      src="./assets/progress-$ (2).png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <button
+                  data-bs-toggle="modal"
+                  data-bs-target="#frame-2"
+                  class="btn btn-primary mt-3 rounded w-100 fw-bolder"
+                >
+                  Continue
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="bi-weekly"
+      aria-hidden="true"
+      aria-labelledby="exampleModalToggleLabel2"
+      tabindex="-1"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div
+            class="d-flex align-items-center justify-content-center modal-bg-1"
+          >
+            <div
+              class="modal-custom-1 d-flex align-items-baseline justify-content-center px-3"
+            >
+              <div class="modal-components mt-auto mb-5 pb-5">
+                <h4 class="fw-bolder mb-3 fs-5 text-center">Bi-Weekly plan</h4>
+                <h4 class="fw-bolder mb-2 fs-6 text-center">
+                  Your purchase amount <span class="fs-5">$100</span>
+                </h4>
+                <div class="d-flex gap-2 mb-2">
+                  <div>
+                    <img
+                      class="img-fluid"
+                      src="./assets/Group 430icon.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="plan-card">
+                    <div>
+                      <p class="fw-bolder">$5</p>
+                    </div>
+                    <p class="fw-bold">Today</p>
+                    <p>1st Jan</p>
+                    <img
+                      class="rounded-circle"
+                      src="./assets/Ellipse 16.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+
+                <div class="d-flex gap-2 mb-2">
+                  <div>
+                    <img
+                      class="img-fluid"
+                      src="./assets/Group 430icon.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="plan-card">
+                    <div>
+                      <p class="fw-bolder">$19</p>
+                    </div>
+                    <p class="fw-bold">2nd Week</p>
+                    <p>14th Jan</p>
+                    <img
+                      class="rounded-circle"
+                      src="./assets/progress-$ (6).png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+
+                <div class="d-flex gap-2 mb-2">
+                  <div>
+                    <img
+                      class="img-fluid"
+                      src="./assets/Group 430icon.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="plan-card">
+                    <div>
+                      <p class="fw-bolder">$19</p>
+                    </div>
+                    <p class="fw-bold">4th Week</p>
+                    <p>4th Feb</p>
+                    <img
+                      class="rounded-circle"
+                      src="./assets/progress-$ (4).png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+
+                <div class="d-flex gap-2 mb-2">
+                  <div>
+                    <img
+                      class="img-fluid"
+                      src="./assets/Group 430icon.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="plan-card">
+                    <div>
+                      <p class="fw-bolder">$19</p>
+                    </div>
+                    <p class="fw-bold">6th Week</p>
+                    <p>18th Feb</p>
+                    <img
+                      class="rounded-circle"
+                      src="./assets/progress-$ (2).png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <button
+                  data-bs-toggle="modal"
+                  data-bs-target="#frame-2"
+                  class="btn btn-primary mt-3 rounded w-100 fw-bolder"
+                >
+                  Continue
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="monthly"
+      aria-hidden="true"
+      aria-labelledby="exampleModalToggleLabel2"
+      tabindex="-1"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div
+            class="d-flex align-items-center justify-content-center modal-bg-1"
+          >
+            <div
+              class="modal-custom-1 d-flex align-items-baseline justify-content-center px-3"
+            >
+              <div class="modal-components mt-auto mb-5 pb-5">
+                <div style="margin-bottom: 50%">
+                  <h4 class="fw-bolder mb-3 fs-5 text-center">Monthly plan</h4>
+                  <h4 class="fw-bolder mb-2 fs-6 text-center">
+                    Your purchase amount <span class="fs-5">$100</span>
+                  </h4>
+                  <p class="text-center fs-6">
+                    6% to 16% APR and 6 to 36 months installment
+                  </p>
+                </div>
+
+                <button
+                  data-bs-toggle="modal"
+                  data-bs-target="#frame-2"
+                  class="btn btn-primary mt-3 rounded w-100 fw-bolder"
+                >
+                  Continue
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="frame-2"
+      aria-hidden="true"
+      aria-labelledby="exampleModalToggleLabel2"
+      tabindex="-1"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div
+            class="d-flex align-items-center justify-content-center modal-bg-1 "
+          >
+            <div
+              class="modal-custom-2 d-flex align-items-baseline justify-content-center px-3 position-relative"
+            >
+            <img
+              data-bs-dismiss="modal"
+              class="position-absolute end-0 top-0 mt-auto ms-auto"
+              src="./assets/PayRomi/assets/Multiply.png"
+              alt=""
+            />
+              <div class="modal-components mt-auto mb-5 pb-5">
+                <div class="d-flex gap-2 mb-2">
+                  <input
+                    type="text"
+                    placeholder="First Name"
+                    class="fw-bold p-2"
+                  />
+                  <input
+                    type="text"
+                    placeholder="Last Name"
+                    class="fw-bold p-2 w-75"
+                  />
+                </div>
+                <div class="d-flex gap-2 mb-2">
+                  <input
+                    style="width: 190%"
+                    type="text"
+                    placeholder="Street"
+                    class="fw-bold p-2"
+                  />
+                  <input type="text" placeholder="Apt" class="fw-bold p-2" />
+                </div>
+                <div class="d-flex gap-2 mb-2">
+                  <input
+                    style="width: 30%"
+                    type="text"
+                    placeholder="Zip"
+                    class="fw-bold p-2"
+                  />
+                  <input
+                    style="width: 120%"
+                    type="text"
+                    placeholder="City"
+                    class="fw-bold p-2"
+                  />
+                  <input
+                    style="width: 50%"
+                    type="text"
+                    placeholder="State"
+                    class="fw-bold p-2"
+                  />
+                </div>
+                <div class="d-flex gap-2 mb-2">
+                  <input
+                    type="text"
+                    placeholder="Credit Score (Optional)"
+                    class="fw-bold p-2"
+                  />
+                  <input
+                    type="text"
+                    placeholder="MM / DAY / YEAR"
+                    class="fw-bold p-2"
+                  />
+                </div>
+                <div class="d-flex gap-2 mb-2">
+                  <input type="text" placeholder="Email" class="fw-bold p-2" />
+                </div>
+                <div class="d-flex gap-2 mb-2">
+                  <input type="text" placeholder="Phone" class="fw-bold p-2" />
+                </div>
+
+                <div class="d-flex mb-2 p-1 align-items-center gap-2 my-3">
+                  <input style="width: auto" type="checkbox" />
+                  <div>
+                    <p style="font-size: 12.2796px" class="mb-0">
+                      By clicking Apply Now, you acknowledge you have read and
+                      agreed to PayRomi credit card
+                      <a
+                        style="color: #6c28fe"
+                        class="text-decoration-none"
+                        href=""
+                        >Terms of Use and Privacy Policy.</a
+                      >
+                    </p>
+                  </div>
+                </div>
+
+                <button
+                  data-bs-toggle="modal"
+                  data-bs-target="#frame-3"
+                  class="btn btn-primary mt-3 rounded w-100 fw-bolder"
+                >
+                  Continue
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="frame-3"
+      aria-hidden="true"
+      aria-labelledby="exampleModalToggleLabel2"
+      tabindex="-1"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div
+            class="d-flex align-items-center justify-content-center modal-bg-1"
+          >
+            <div
+              class="modal-custom-2 d-flex align-items-baseline justify-content-center px-3 position-relative"
+            >
+            <img
+              data-bs-dismiss="modal"
+              class="position-absolute end-0 top-0 mt-auto ms-auto"
+              src="./assets/PayRomi/assets/Multiply.png"
+              alt=""
+            />
+              <div class="modal-components mt-auto mb-5 pb-5">
+                <div style="margin-bottom: 50%">
+                  <h4 class="fw-bolder mb-3 fs-5 text-center">
+                    Thank You For Choosing Us
+                  </h4>
+                  <h4 class="fw-bolder mb-2 fs-6 text-center">
+                    Our server does not match your data. <br />
+                    Plz try later
+                  </h4>
+                </div>
+
+                <button class="btn btn-primary mt-3 rounded w-100 fw-bolder" data-bs-dismiss="modal">
+                  Continue
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- modals end  -->
+
     <section class="top-banner">
       <div class="d-lg-flex">
         <div class="p-5 m-md-5">
@@ -691,7 +1346,7 @@
       <div style="width: 562.67px; height: 434.83px; padding: 20px">
         <img
           class="img-fluid"
-          src="./assets/./images/Online shopping.png"
+          src="./assets/images/Online shopping.png"
           alt=""
         />
       </div>

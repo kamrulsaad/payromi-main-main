@@ -16,6 +16,12 @@
   background-color: #dbd7f4;
 }
 
+.modal-bg-1 {
+  width: 673px;
+  height: fit-content;
+  background-color: #dbd7f4;
+}
+
 .modal-custom {
   width: 282px;
   height: 488px;
@@ -32,9 +38,9 @@
   width: 428px;
   height: 600px;
   background-color: white;
-  background-image: url(./assets/Vector.svg);
+  background-image: url(../assets/PayRomi/assets/Vector.svg);
   background-repeat: no-repeat;
-  background-position: center top 50px;
+  background-position: center top ;
   background-size: contain;
   border-radius: 15px 25px 0px 0px;
 }
