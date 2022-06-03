@@ -458,15 +458,16 @@
 .mx-auto-2 h5{
   font-weight: 800; font-size: 25.0386px
 }
-.cret-button p{
+.cret-button{
   color: white;
   background-color: #5541d7;
   border-radius: 8px;
   width: 192px;
   height: 48px;
   overflow: hidden;
-  padding: 6px;
-margin-left: -10px;
+  margin-right: 40%;
+  border: none;
+  align-self: flex-start;
 }
 .footer-img img,
 .footer-img-1 img{

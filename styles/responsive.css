@@ -221,6 +221,11 @@
         text-align: center;
         margin-left: 40px;
       }
+      .cret-button{
+        width: 70%;
+        height: 48px;
+        margin-right: 0;
+      }
 
 }
 
@@ -276,6 +281,12 @@
   .apps-section {
     color: white;
     font-size: 20px;
+  }
+
+  .cret-button{
+    width: 192px;
+    height: 48px;
+    margin-right: 0;
   }
   .negative-margin{
     margin-left: 0;
