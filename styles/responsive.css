@@ -146,27 +146,28 @@
   }
      /*extra*/
      .login-modal {
-      width: 280px;
+      width: 100%;
       height: 500px;
       font-size: 10px;
       }
     
       .sing-bod,
       .sing-bod-1 {
-      width: 280px;
+      width: 100%;
       margin-left: 0px;
       }
       .sing-bod-1 {
       margin-left: -10px;
       }
       .plc {
-      width: 200px;
+      width: 100%;
+      margin: 0 auto;
       }
       .button {
       width: 180px;
       }
-      .emailHelp {
-      margin-left: -200px;
+      .emailHelp{
+        width: auto;
       }
       .w3-bar-item {
       margin-left: -80px;
@@ -225,6 +226,10 @@
         width: 70%;
         height: 48px;
         margin-right: 0;
+      }
+
+      .sign-up-modal{
+        width: 100%;
       }
 
 }

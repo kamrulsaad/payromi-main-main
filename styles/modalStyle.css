@@ -121,24 +121,28 @@
     width: auto;
   }
   .status-modal {
-    width: 100%;
+    width: auto;
+  }
+  .modal-components {
+    width: auto;
   }
   .modal-custom-2 {
     width: 100%;
     height: 600px;
     background-position: top;
   }
-  .modal-bg {
+  .modal-bg-1 {
     width: 100%;
     height: fit-content;
   }
   .modal-custom {
-    width: 100%;
+    width: auto;
     height: fit-content;
   }
   .modal-custom-1 {
-    width: 90%;
+    width: auto;
+    padding: 0;
     height: fit-content;
-    padding-top: 20px;
+    padding: 20px;
   }
 }

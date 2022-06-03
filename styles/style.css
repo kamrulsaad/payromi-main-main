@@ -321,6 +321,7 @@
   border: 0.761205px solid #5541d7;
   border-radius: 6.08964px;
   order: 1;
+  margin: 0 auto;
   align-self: stretch;
 }
 .login-modal {
@@ -345,6 +346,11 @@
   width: 400px;
   margin-top: 50px;
 }
+
+.button-1{
+  margin-top: 30px;
+}
+
 .button-3 {
   margin-top: 30px;
   width: 400px;
