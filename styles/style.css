@@ -11,7 +11,7 @@
 }
 
 .nav {
-  background-color: #dc2ade;
+  background-color: #0F2595;
   color: white;
 }
 
@@ -499,9 +499,11 @@
 }
 .footer-txt-1 h6{
   margin-top: -50px;
+  color: #0F2595;
 }
 .footer-txt li,
 .footer-txt-1 li{
+  color: #0F2595;
   margin-left: -26px;
 }
 .bussit-text-1{
